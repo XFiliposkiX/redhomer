@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>red homer armia</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Rubik -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #f5f5f5;
+      font-family: 'Rubik', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      text-align: center;
+      margin-top: 2rem;
+      color: #ff4da6;
+    }
+
+    .army-list {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: rgba(30,30,30,0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255,77,166,0.5);
+      font-weight: 700; /* Rubik Bold */
+      font-family: 'Rubik', sans-serif;
+    }
+
+    .army-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,77,166,0.2);
+      font-size: 1.2rem;
+    }
+
+    .army-list li:last-child {
+      border-bottom: none;
+    }
+
+    a.btn-back, .btn-armia {
+      display: inline-block;
+      margin: 1rem auto;
+      text-decoration: none;
+      padding: 0.9em 1.5em;
+      border-radius: 0.5em;
+      font-weight: 700; /* Rubik Bold */
+      font-family: 'Rubik', sans-serif;
+      font-size: 1rem;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn-back {
+      background-image: linear-gradient(325deg, #af40ff 0%, #5b42f3 55%, #00ddeb 90%);
+      color: #fff;
+      box-shadow:
+        0px 0px 20px rgba(71, 184, 255, 0.5),
+        0px 5px 5px -1px rgba(58, 125, 233, 0.25);
+    }
+
+    .btn-back:hover {
+      transform: scale(1.05);
+      box-shadow:
+        0px 0px 25px rgba(71, 184, 255, 0.7),
+        0px 5px 5px -1px rgba(58, 125, 233, 0.35);
+    }
+  </style>
+</head>
+<body>
+  <!-- Page Title -->
+  <h1>Osoby w armii</h1>
+
+  <!-- List of army members -->
+  <ul class="army-list">
+    <li>amadela</li>
+  </ul>
+
+  <!-- Buttons -->
+  <div class="flex flex-col items-center">
+    <!-- Back button -->
+    <a href="/" class="btn-back">Powrót</a>
+  </div>
+</body>
+</html>
